@@ -2,11 +2,19 @@
 
   img{
     border-radius: 20%;
+    cursor: pointer;
   }
-  body{
-    text-align: center;
+  .changed { 
+    border-radius: 0;
+    cursor: pointer;
+    transition: border-radius .5s;
+
   }
- section {
+
+
+  
+
+  section {
     border-width: 3px;
     border-color: rgb(157, 173, 162);
     border-radius: 6px;
@@ -14,6 +22,17 @@
     padding: 16px;
     margin-bottom: 8px;
     background-image: url(../img/background.png);
+    text-align: center;
+  }
+  .btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    color: brown;
+    cursor: pointer;
+    background: darkturquoise;
+    display: block;
+    margin: 0 auto;
   }
 
   

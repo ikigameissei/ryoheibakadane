@@ -8,11 +8,20 @@
 <body>
   <section>
     <img src="img//IMG_0020.jpg" alt="河野さんグリスト臭え"
-    width="450px height450px">
+    width="450px height450px" id="trigger">
     <h1>生亀一晟</h1>
-    <p>俺は生亀一晟、プログラマー見習いの21歳。悩みはこの年頃特有の青髭だ。</p>
+    <p id="target">俺は生亀一晟、プログラマー見習いの21歳。悩みはこの年頃特有の青髭だ。</p>
 
   </section>
+  <button class="btn">OK</button>
   <footer>(c) dotinstall.com</footer>
+  <script>
+    'use strict'
+    function process(){
+      document.getElementById('target').textContent='自分がいっちゃんかわいいわ' ;
+      document.getElementById('trigger').classList.add('changed');
+    }
+    document.getElementById('trigger').addEventListener('click',process);
+  </script>
 </body>
 </html>
