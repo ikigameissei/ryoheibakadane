@@ -1,0 +1,21 @@
+
+
+  img{
+    border-radius: 20%;
+  }
+  body{
+    text-align: center;
+  }
+ section {
+    border-width: 3px;
+    border-color: rgb(157, 173, 162);
+    border-radius: 6px;
+    border-style: dashed;
+    padding: 16px;
+    margin-bottom: 8px;
+    background-image: url(../img/background.png);
+  }
+
+  
+
+  
